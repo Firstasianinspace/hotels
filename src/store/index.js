@@ -1,9 +1,8 @@
 import { createStore } from "vuex";
+import hotels from "./hotels.js";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    hotels,
+  },
 });
